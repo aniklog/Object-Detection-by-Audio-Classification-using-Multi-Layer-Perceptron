@@ -10,6 +10,7 @@ Option 1 : Training the model and subsequently testing with new data
 
 Option 2: Directly perform testing by loading trained model from a .pkl file and subsequently testing with new data
 
+
 Run Guide
 Option 1 : 
 Step1 : Run the python file traintest.py. It is advisable to run the code through an IDE like PyCharm in Conda environment. Otherwise, if it is executed in a base machine without any IDE then the necessary python libraries need to be installed in the host environment.
