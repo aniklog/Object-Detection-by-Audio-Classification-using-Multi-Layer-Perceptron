@@ -27,3 +27,25 @@ Browse the excel file to be tested through the GUI tab. Provide the Save file lo
 New Output will be generated with the filename Output.xlsx. In the output file, newly created labels corresponding to individual signal would be observed at the last column as below.
 
 ![Picture4](https://user-images.githubusercontent.com/57104937/149928878-0ab08c35-b50f-469f-a596-a7ee1916b38f.png)
+
+This label corresponding to each row represents the classified Object Number with respect to that particular signal/Row.
+Similarly, if we provide the particular signal information (signal row number), the GUI tab will display which object it belongs to as depicted in the snapshot.
+
+Option 2 : 
+Step 1 : Run the python file u_onlytest.py. It is advisable to run the code through an IDE like PyCharm in Conda environment. Otherwise, if it is executed in a base machine without any IDE then the necessary python libraries need to be installed in the host environment.
+Step 2 : 
+
+
+![Picture5](https://user-images.githubusercontent.com/57104937/149929005-b6d95953-f164-439e-90f1-c2efde9aaacb.png)
+
+Use the signal start column and signal end column as 7 and 3406. The model has been trained and stored with this dimension. If the testing dimension does not exactly match then dimension mismatch error will be reproduced. If the dimension in the test file has to be different then it is advisable to try Option 1 and train the model with the required dimension.
+Load the file trained_model.pkl in the browse model tab. Provide Path for storing the Output file.
+Step 3: Test the model with the GUI button. A file named Output.xlsx will be generated. In the output file, newly created labels corresponding to individual signal would be observed at the last column as below.
+
+![Picture6](https://user-images.githubusercontent.com/57104937/149929113-99f44bb1-2f68-45a9-9db5-9b784dd351a6.png)
+
+This label corresponding to each row represents the classified Object Number with respect to that particular signal/Row. Similarly, in the GUI tab Output Measures, if we provide the particular signal information (signal row number), the GUI tab will display which object it belongs to as depicted in the snapshot.
+
+
+
+![Picture7](https://user-images.githubusercontent.com/57104937/149929191-728a1bee-c5b5-41e4-8184-78d665620006.png)
